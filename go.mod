@@ -1,3 +1,1 @@
-module gomicrosevices
-
-go 1.15
+module github.com/DeconvFFT/goMicroservicesbasics

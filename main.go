@@ -9,7 +9,7 @@ import (
 
 func main() {
 	l := log.New(os.Stdout, "product-api", log.LstdFlags)
-	hh := handlers.NewHello(l)
+	hh := handlers.newHello(l)
 
 	http.HandleFunc("/goodbye", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "goodbye")
