@@ -1,6 +1,10 @@
 package data
 
-import "time"
+import (
+	"encoding/json"
+	"io"
+	"time"
+)
 
 // use `json : fieldname omitempty (only if you want to ignore if empty)` or `json "-" (to completely ignore a field)`
 
@@ -36,6 +40,12 @@ var productList = []*Product{
 	},
 }
 
-func GetProducts() []*Product {
+type Products []*Product
+
+func (p *Products) ToJSON(w io.Writer) error {
+	e := json.NewEncoder(w)
+	return e.Encode(p)
+}
+func GetProducts() Products {
 	return productList
 }
