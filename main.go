@@ -23,7 +23,7 @@ func main() {
 	sm := mux.NewRouter()
 
 	getRouter := sm.Methods(http.MethodGet).Subrouter() // can help us directly handle a function for the method type
-	getRouter.HandleFunc("/", ph.GetProducts)
+	getRouter.HandleFunc("/", ph.ListAll)
 
 	putR := sm.Methods(http.MethodPut).Subrouter()
 	putR.HandleFunc("/products", ph.Update)
