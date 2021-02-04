@@ -184,6 +184,7 @@ github.com/nicholasjackson/building-microservices-youtube/currency v0.0.0-202003
 github.com/nicholasjackson/building-microservices-youtube/currency v0.0.0-20200329100342-3c14bf3f378d/go.mod h1:DMFXi7lJmSY5a/6uxjtI6E/dHCXvNfiNLcX6y9yfiSQ=
 github.com/nicholasjackson/building-microservices-youtube/product-api v0.0.0-20200918064506-0260dd0e3676 h1:DCWoYFK3kQG/aknszKPBN2TkfNHp0FAYusr85jOy0+Q=
 github.com/nicholasjackson/building-microservices-youtube/product-api v0.0.0-20200918064506-0260dd0e3676/go.mod h1:cp0dXe7uCsAyA1rSRfWo0nOcKyO/HSkwDpwn6yNbDdw=
+github.com/nicholasjackson/env v0.6.0 h1:6xdio52m7cKRtgZPER6NFeBZxicR88rx5a+5Jl4/qus=
 github.com/nicholasjackson/env v0.6.0/go.mod h1:/GtSb9a/BDUCLpcnpauN0d/Bw5ekSI1vLC1b9Lw0Vyk=
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
 github.com/pborman/uuid v1.2.0/go.mod h1:X/NO0urCmaxf9VXbdlT7C2Yzkj2IKimNn4k+gtPdI/k=
